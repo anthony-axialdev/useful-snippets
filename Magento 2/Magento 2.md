@@ -7,11 +7,7 @@
 ```PHP
 <?php $html = $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('marque_homepage')->toHtml(); ?>
 <?php if ($html) : ?>
-    <div class="marque-list-container">
-        <ul class="marque-list">
-            <?php echo $html ?>
-        </ul>
-    </div>
+    <?php echo $html ?>
 <?php endif; ?>
 ```
 
